@@ -8,6 +8,7 @@ trigger:
 
 pool: AGENT
 
+-
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
@@ -19,5 +20,3 @@ pool: AGENT
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-
-
